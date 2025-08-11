@@ -84,6 +84,8 @@ st.markdown("""
         <div class="service-icon">💻</div>  <!-- 使用emoji作为图标 -->
         <h3>学校软件开发</h3>
         <p>定制化与各学校校风契合的人工智能软件，提高学生学习效率。</p>
+        <h3>产品内容</h3>
+        <p>智能分析学习状况的AI，监督日常学习的AI，可让教师私人定制的辅助教学AI</p>
 </div>
         </div>
     </div>
@@ -103,8 +105,6 @@ st.markdown("""
     <div class="portfolio-item">
         <div class="portfolio-image" style="background-color: #4e89ae;"></div>
         <div class="portfolio-content">
-            <h3>产品内容</h3>
-            <p>智能分析学习状况的AI，监督日常学习的AI，可让教师私人定制的辅助教学AI</p>
 </div>
             </div>
         </div>
@@ -497,3 +497,4 @@ body {{
 </style>
 
 """, unsafe_allow_html=True)
+
