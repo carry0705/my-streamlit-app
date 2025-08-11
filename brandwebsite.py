@@ -7,8 +7,8 @@ import os  # 用于处理文件路径
 
 # 设置页面配置
 st.set_page_config(
-    page_title="—— | ——",  # 浏览器标签页标题
-    page_icon="🚀",  # 浏览器标签页图标(可以使用emoji)
+    page_title="智能助学",  # 浏览器标签页标题
+    page_icon="🔑",  # 浏览器标签页图标(可以使用emoji)
     layout="wide",  # 使用宽屏布局
     initial_sidebar_state="collapsed"  # 初始状态下折叠侧边栏
 )
@@ -25,7 +25,7 @@ def local_css(file_name):
 st.markdown("""
 <nav class="navbar">
     <div class="navbar-container">
-        <a href="#" class="logo">企业名称</a>  <!-- 品牌logo -->
+        <a href="#" class="logo">智能助学</a>  <!-- 品牌logo -->
         <div class="nav-links">
             <a href="#home">首页</a>  <!-- 导航链接，使用锚点跳转 -->
             <a href="#about">关于我们</a>
@@ -42,8 +42,8 @@ st.markdown("""
 st.markdown("""
 <div class="hero" id="home"><!-- id用于导航定位 -->
     <div class="hero-content">
-        <h1>创新科技解决方案</h1>  <!-- 主标题 -->
-        <p>为企业提供前沿的数字化转型服务，助力业务增长</p>  <!-- 副标题 -->
+        <h1>人工智能助力学习</h1>  <!-- 主标题 -->
+        <p>为学生与老师提供划时代的学习模式</p>  <!-- 副标题 -->
         <a href="#services" class="btn">探索我们的服务</a>  <!-- 行动按钮 -->
     </div>
 </div>
@@ -54,16 +54,16 @@ st.markdown("""
 <div class="section" id="about">  <!-- 区块id -->
     <div class="container">  <!-- 内容容器，控制最大宽度 -->
         <div class="section-header">  <!-- 区块标题区域 -->
-            <h2>关于 ”企业名称“</h2>
-            <p>引领创新，创造价值</p>
+            <h2>关于 ”智能助学“</h2>
+            <p>引领创新，助力成长</p>
         </div>
         
 <div class="about-content">  <!-- 关于内容 -->
                <h2> 我们的故事<h2>
-                <p><p>
+                <p>智能助学成立于20XX年，由几位杰出青年创立。<p>
     <div class="about-text">
     <h3>我们的使命</h3> <!-- 小标题 -->
-    <p></p>
+    <p>我们致力于让人工智能深度融合于学习中，助力学生个性化发展。</p>
 </div>
                 
 """, unsafe_allow_html=True)
@@ -76,14 +76,14 @@ st.markdown("""
 <div class="container">
     <div class="section-header">
     <h2>我们的服务</h2>
-     <p>专业定制解决方案</p>
+     <p>通过老师提供学生的学习成绩，兴趣爱好，用人工智能生成个性化学习路径</p>
 </div>
         
 <div class="services-grid">
     <div class="service-card">
         <div class="service-icon">💻</div>  <!-- 使用emoji作为图标 -->
-        <h3>企业软件开发</h3>
-        <p>定制化企业级应用开发，提高运营效率</p>
+        <h3>学校软件开发</h3>
+        <p>定制化与各学校校风契合的人工智能软件，提高学生学习效率。</p>
 </div>
         </div>
     </div>
@@ -96,18 +96,17 @@ st.markdown("""
 <div class="container">
     <div class="section-header">
         <h2>成功案例</h2>
-        <p>见证我们的专业实力</p>
+        <p>迄今为止已为几十家学校提供服务，为数万名学生私人定制发展路径。</p>
 </div>
         
 <div class="portfolio-grid">
     <div class="portfolio-item">
         <div class="portfolio-image" style="background-color: #4e89ae;"></div>
         <div class="portfolio-content">
-            <h3>全球零售企业数字化转型</h3>
-            <p></p>
+            <h3>产品内容</h3>
+            <p>智能分析学习状况的AI，监督日常学习的AI，可让教师私人定制的辅助教学AI</p>
 </div>
             </div>
-            <!-- 其他案例项目... -->
         </div>
     </div>
 </div>
@@ -119,7 +118,7 @@ st.markdown("""
     <div class="container">
         <div class="section-header">
             <h2>专业团队</h2>
-            <p>汇聚行业顶尖人才</p>
+            <p>汇聚行业顶尖人才，包括教学，人工智能等领域的优秀青年</p>
         </div>
         
 <div class="team-grid">
@@ -128,10 +127,19 @@ st.markdown("""
         <h3>张明</h3>
         <p>创始人 & CEO</p>
         <div class="social-links">
-            <a href="#">LinkedIn</a> | <a href="#">Twitter</a>
         </div>
     </div>
             <!-- 其他团队成员... -->
+    <div class="team-member">
+        <div class="member-photo" style="background-color: #f6ae2d;"></div>
+        <h3>李华</h3>
+        <p>首席技术官</p>
+        <h3>王芳</h3>
+        <p>首席运营官</p>
+        <h3>赵强</h3>
+        <p>首席市场官</p>
+        <h3>刘洋</h3>
+        <p>首席产品官</p>
         </div>
     </div>
 </div>
@@ -149,11 +157,10 @@ st.markdown("""
 <div class="contact-container">  <!-- 两栏布局 -->
     <div class="contact-info">  <!-- 左侧联系信息 -->
         <h3>联系方式</h3>
-        <p><strong>地址:</strong> </p>
+        <p><strong>地址:XX省XX市XX区XX路XX号</strong> </p>
         <!-- 其他联系信息... -->
         
 <div class="map-placeholder">
-            <p>地图位置</p>  <!-- 地图占位符 -->
         </div>
             </div>
             
@@ -178,8 +185,8 @@ st.markdown("""
 <div class="container">
         <div class="footer-content">  <!-- 三栏布局 -->
             <div class="footer-logo">
-                <h3>TechVision</h3>
-                <p>创新科技解决方案提供商</p>
+                <h3>智能助学</h3>
+                <p>智能教学方案提供商</p>
             </div>
             
 <div class="footer-links">
@@ -200,7 +207,7 @@ st.markdown("""
         </div>
         
 <div class="footer-bottom">  <!-- 底部版权和社交链接 -->
-            <p>&copy; 2025 大学腾飞营. 保留所有权利</p>
+            <p>&copy; 智能助学 保留所有权利</p>
             <div class="social-icons">
                 <a href="#">微信</a>
                 <!-- 其他社交链接... -->
