@@ -54,7 +54,7 @@ st.markdown("""
 <div class="section" id="about">  <!-- 区块id -->
     <div class="container">  <!-- 内容容器，控制最大宽度 -->
         <div class="section-header">  <!-- 区块标题区域 -->
-            <h2>关于 ”智能助学“</h2>
+            <h2>关于 智能助学</h2>
             <p>引领创新，助力成长</p>
         </div>
         
@@ -495,4 +495,5 @@ body {{
     }}
 }}
 </style>
+
 """, unsafe_allow_html=True)
