@@ -67,8 +67,8 @@ st.markdown("""
 </div>
                 
 """, unsafe_allow_html=True)
-#logo = Image.open()  # 加载本地图片
-#st.image(logo, caption="公司Logo", width=200)  # 显示图片，设置宽度为100像素
+logo = Image.open(d:/作品/人工智能和教育.jpg)  # 加载本地图片
+st.image(logo, caption="公司Logo", width=200)  # 显示图片，设置宽度为100像素
 
 # 服务展示部分
 st.markdown("""
@@ -497,4 +497,5 @@ body {{
 </style>
 
 """, unsafe_allow_html=True)
+
 
